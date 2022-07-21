@@ -49,7 +49,9 @@ function generateMarkdown(data) {
 
   ## Questions
   If you have any questions, please contact me through my GitHub profile or through email:
-  [GitHub Profile](https://github.com/${data.github}/)
+
+  [GitHub](https://github.com/${data.github}/)
+  
   [Email](mailto:${data.email})
 
 `;
