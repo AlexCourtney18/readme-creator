@@ -1,20 +1,20 @@
 
-  # d
+  # q
 
   ## Description
-  d
+  q
 
   ## Table of Contents
-  Description
+  Description,Installation,Usage,Credits,License
 
   ## Installation
-  d
+  q
 
   ## Usage
-  d
+  q
 
   ## Credits
-  d
+  q
 
   ## License
   MIT
@@ -22,18 +22,18 @@
   ## Badges
 
   ## Features
-  d
+  q
 
   ## How to Contribute
-  d
+  q
 
   ## Tests
-  d
+  q
 
   ## Questions
   If you have any questions, please contact me through my GitHub profile or through email:
 
-  [GitHub](https://github.com/AlexCourtney18/)
+  [GitHub](https://github.com/q/)
   
-  [Email](mailto:email@gmail.com)
+  [Email](mailto:q)
 

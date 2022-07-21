@@ -10,6 +10,16 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
+const generateContents = contentsArr => {
+  return `
+  ${contentsArr.map(({ section }) => {
+
+  }
+
+  )};
+  `;
+};
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
 
@@ -51,7 +61,7 @@ function generateMarkdown(data) {
   If you have any questions, please contact me through my GitHub profile or through email:
 
   [GitHub](https://github.com/${data.github}/)
-  
+
   [Email](mailto:${data.email})
 
 `;
