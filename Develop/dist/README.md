@@ -1,9 +1,9 @@
 
-  # README Creator
+  # Title
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 
   ## Description
-  An application that creates a README file for the user based on their inputs.
+  This is a short description.
 
   ## Table of Contents
   [Description](#description)</br>
@@ -17,30 +17,30 @@
   [Questions](#questions)
 
   ## Installation
-  Download the code. Install node.js, npm, and inquirer.
+  Download the code, install node.js along with npm and inquirer.
 
   ## Usage
-  Run the command "node index.js"
+  With code downloaded, run "node index" command in command terminal. Follow the prompts.
 
   ## Credits
-  I did not have any collaborators on this project.
+  My dog Sadie. My tutor Andrew. 
 
   ## License
   Licensed under MIT.
 
   ## Features
-  The primary feature is quick README creation.
+  A tool to generate a readme file.
 
   ## How to Contribute
-  Other users are not able to contribute.
+  Contribute
 
   ## Tests
-  undefined
+  Run node index command. Follow prompts.
 
   ## Questions
   If you have any questions, please contact me through my GitHub profile or through email:
 
-  [GitHub](https://github.com/AlexCourtney18/)
+  [GitHub](https://github.com/AlexCourtney/)
 
-  [Email](mailto:email@gmail.com)
+  [Email](mailto:email@outlook.com)
 
