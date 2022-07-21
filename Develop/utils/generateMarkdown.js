@@ -1,68 +1,52 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-const generateContents = contentsArr => {
-  return `
-  ${contentsArr.map(({ section }) => {
-
-  }
-
-  )};
-  `;
-};
-
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
 
-  const { title, description, contents, installation, usage, credits, license, features, contribute, tests, github } = data;
+  const { title, description, installation, usage, credits, license, features, contribute, tests, github, email } = data;
 
   return `
-  # ${data.title}
+  # ${title}
+  ![badge](https://img.shields.io/badge/license-${license}-brightgreen.svg)
 
   ## Description
-  ${data.description}
+  ${description}
 
   ## Table of Contents
-  ${data.contents}
+  [Description](#description)</br>
+  [Installation](#installation)</br>
+  [Usage](#usage)</br>
+  [Credits](#credits)</br>
+  [License](#license)</br>
+  [Features](#features)</br>
+  [Contributions](#how-to-contribute)</br>
+  [Tests](#tests)</br>
+  [Questions](#questions)
 
   ## Installation
-  ${data.installation}
+  ${installation}
 
   ## Usage
-  ${data.usage}
+  ${usage}
 
   ## Credits
-  ${data.credits}
+  ${credits}
 
   ## License
-  ${data.license}
-
-  ## Badges
+  Licensed under ${license}.
 
   ## Features
-  ${data.features}
+  ${features}
 
   ## How to Contribute
-  ${data.contribute}
+  ${contribute}
 
   ## Tests
-  ${data.tests}
+  ${tests}
 
   ## Questions
   If you have any questions, please contact me through my GitHub profile or through email:
 
-  [GitHub](https://github.com/${data.github}/)
+  [GitHub](https://github.com/${github}/)
 
-  [Email](mailto:${data.email})
+  [Email](mailto:${email})
 
 `;
 }

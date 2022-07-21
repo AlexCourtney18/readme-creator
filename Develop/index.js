@@ -1,9 +1,7 @@
-// TODO: Include packages needed for this application
 const { writeFile } = require('./utils/generate-readme.js');
 const inquirer = require('inquirer');
 const generatePage = require('./utils/generateMarkdown.js');
 
-// TODO: Create an array of questions for user input
 const questions = () => {
     return inquirer.prompt([
         {
@@ -28,25 +26,6 @@ const questions = () => {
                     return true;
                 } else {
                     console.log('Please provide the description of your project!');
-                    return false;
-                }
-            }
-        },
-        {
-            type: 'confirm',
-            name: 'confirmContents',
-            message: 'Would you like to create a table of contents?',
-            default: false
-        },
-        {
-            type: 'checkbox',
-            name: 'contents',
-            message: 'What sections would you like to add to your Table of Contents? Select all that apply.',
-            choices: ['Description', 'Installation', 'Usage', 'Credits', 'License', 'Badges', 'Features', 'How to Contribute', 'Tests'],
-            when: ({ confirmContents }) => {
-                if (confirmContents) {
-                    return true;
-                } else {
                     return false;
                 }
             }
@@ -96,7 +75,7 @@ const questions = () => {
             }
         },
         {
-            type: 'checkbox',
+            type: 'list',
             name: 'license',
             message: 'Please select the applicable license.',
             choices: ['Apache', 'GNU', 'ISC', 'MIT']
@@ -179,13 +158,6 @@ const questions = () => {
     ]);
 };
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
-
-// TODO: Create a function to initialize app
-function init() { }
-
-// Function call to initialize app
 questions()
     .then(userData => {
         return generatePage(userData);
