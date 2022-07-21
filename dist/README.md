@@ -23,7 +23,7 @@
   With code downloaded, run "node index" command in command terminal. Follow the prompts.
 
   ## Credits
-  My dog Sadie. My tutor Andrew. 
+  My dog Sadie. My tutor Andrew.
 
   ## License
   Licensed under MIT.
@@ -40,7 +40,7 @@
   ## Questions
   If you have any questions, please contact me through my GitHub profile or through email:
 
-  [GitHub](https://github.com/AlexCourtney/)
+  [GitHub](https://github.com/AlexCourtney18/)
 
   [Email](mailto:email@outlook.com)
 
