@@ -149,6 +149,32 @@ const questions = () => {
                     return false;
                 }
             }
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'Please enter your GitHub username. (Required)',
+            validate: githubInput => {
+                if (githubInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your GitHub username.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Please enter your Email address. (Required)',
+            validate: emailInput => {
+                if (emailInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your Email address.');
+                    return false;
+                }
+            }
         }
     ]);
 };

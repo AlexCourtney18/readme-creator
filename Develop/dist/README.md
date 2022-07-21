@@ -1,20 +1,20 @@
 
-  # Run Buddy
+  # f
 
   ## Description
-  A website for running enthusiats
+  f
 
   ## Table of Contents
-  Description,Installation,Usage,License,Badges,Features,Tests
+  Description,Installation
 
   ## Installation
-  None! Simply navigate to the web site using your browser of choice
+  f
 
   ## Usage
-  scroll through the information available and input your personal information to find a running coach
+  f
 
   ## Credits
-  Sadie, Clark, Twyla
+  f
 
   ## License
   MIT
@@ -22,11 +22,16 @@
   ## Badges
 
   ## Features
-  Information about the running coaches, google map window to show our nearest location, information about our services.
+  f
 
   ## How to Contribute
-  
+  f
 
   ## Tests
-  Input your data and click submit. Type your address into the google map window to get directions.
+  f
+
+  ## Questions
+  If you have any questions, please contact me through my GitHub profile or through email:
+  [GitHub Profile](https://github.com/AlexCourtney18/)
+  [Email](mailto:email@google.com)
 
